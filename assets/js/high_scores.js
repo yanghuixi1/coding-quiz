@@ -35,8 +35,7 @@ var initialScorePairs = getSortedScores();
 buildScoreContainer(initialScorePairs);
 
 returnButton.addEventListener("click", function () {
-  window.location.href =
-    "/Users/ultracoders/Bootcamp/Homework/Week_4/index.html";
+  window.location.href = "/index.html";
 });
 
 clearScoreButton.addEventListener("click", function () {

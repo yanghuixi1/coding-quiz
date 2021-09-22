@@ -105,8 +105,7 @@ function buildHighScoresContainer() {
     if (initials != "") {
       localStorage.setItem(initials, finalScore);
     }
-    window.location.href =
-      "/Users/ultracoders/Bootcamp/Homework/Week_4/high_scores.html";
+    window.location.href = "/high_scores.html";
   });
 
   initialEl.appendChild(inputEl);
