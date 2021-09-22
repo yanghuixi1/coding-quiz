@@ -96,7 +96,8 @@ function buildHighScoresContainer() {
   var inputEl = document.createElement("input");
   var buttonEl = document.createElement("button");
   buttonEl.textContent = "Submit";
-  buttonEl.setAttribute("type", "submit");
+  buttonEl.setAttribute("id", "submit");
+  formEl.setAttribute("id", "form");
 
   buttonEl.addEventListener("click", function (event) {
     event.preventDefault();

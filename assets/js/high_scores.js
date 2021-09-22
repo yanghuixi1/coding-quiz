@@ -28,6 +28,7 @@ function buildScoreContainer(scorePairs) {
     var currPairEl = document.createElement("li");
     currPairEl.textContent = `${currPair.initial} - ${currPair.score}`;
     scoreContainer.appendChild(currPairEl);
+    currPairEl.setAttribute("id", "curr-pair");
   }
 }
 
