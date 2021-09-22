@@ -105,7 +105,7 @@ function buildHighScoresContainer() {
     if (initials != "") {
       localStorage.setItem(initials, finalScore);
     }
-    window.location.href = "/high_scores.html";
+    window.location.href = "/coding-quiz/high_scores.html";
   });
 
   initialEl.appendChild(inputEl);

@@ -35,7 +35,7 @@ var initialScorePairs = getSortedScores();
 buildScoreContainer(initialScorePairs);
 
 returnButton.addEventListener("click", function () {
-  window.location.href = "/index.html";
+  window.location.href = "/coding-quiz/index.html";
 });
 
 clearScoreButton.addEventListener("click", function () {
