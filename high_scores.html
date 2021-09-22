@@ -13,36 +13,19 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <h1 id="high-score">Highscores</h1>
+    <ol id="score-container"></ol>
+    <div id="buttons">
+      <button class="btn" id="return-btn">Go Back</button>
+      <button class="btn" id="clear-score-btn">Clear Highscores</button>
+    </div>
     <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <nav>
-      <ul>
-        <li>
-          <a
-            href="/Users/ultracoders/Bootcamp/Homework/Week_4/high_scores.html"
-            id="high-score-link"
-            >View Highscores</a
-          >
-        </li>
-        <li><strong>Time: </strong><span id="time-left">0</span></li>
-      </ul>
-    </nav>
-    <br />
-    <br />
-    <div id="main-container">
-      <h1>Coding Quiz Challenge</h1>
-      <p>
-        Try to answer the following code-related questions within the time
-        limit. Keep in mind that incorrect answers will penalize your score/time
-        by ten seconds!
-      </p>
-      <button id="start-btn">Start Quiz</button>
-    </div>
 
-    <script src="./assets/js/main.js" async defer></script>
+    <script src="./assets/js/high_scores.js" async defer></script>
   </body>
 </html>
