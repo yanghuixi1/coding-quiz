@@ -1,6 +1,7 @@
 /* Style for every page */
 * {
   box-sizing: border-box;
+  font-family: sans-serif, serif;
 }
 
 #high-score-link {
@@ -22,10 +23,6 @@ nav ul {
 
 ul {
   list-style-type: none;
-}
-
-#main-container {
-  margin: 20px, 50px;
 }
 
 #start-btn {
@@ -54,12 +51,11 @@ ul {
 #main-container {
   text-align: center;
   padding: 25px;
-  margin: 25px;
+  margin: 20px, 50px;
 }
 
 #choices-container {
-  display: inline-block;
-  text-align: left;
+  padding: 0;
 }
 
 #choices {
@@ -82,20 +78,17 @@ ul {
 /* Style for enter initials page*/
 
 #complete {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
   padding: 15px;
   margin: 20px;
 }
 #final-score {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   padding: 15px;
   margin: 20px;
 }
 
 #form {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   font-weight: bold;
 }
@@ -122,7 +115,7 @@ ul {
   text-align: center;
   list-style-position: inside;
   font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
+
   padding: 30px;
 }
 
@@ -150,6 +143,17 @@ ul {
 #buttons {
   text-align: center;
 }
+
 #curr-pair {
-  background-color: plum;
+  background-color: lavender;
+  width: 20%;
+  margin: 0% auto;
+  padding: 6px;
+  text-align: left;
+}
+
+#question-choice-wrapper {
+  text-align: left;
+  width: 50%;
+  margin: 0% auto;
 }
