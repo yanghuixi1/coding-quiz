@@ -65,7 +65,6 @@ function chooseRandomQuestion() {
 }
 
 function buildQuizContainer() {
-  // h1 ul
   var questionEl = document.createElement("h1");
   questionEl.setAttribute("id", "question-text");
   var choicesEl = document.createElement("ul");
@@ -102,7 +101,6 @@ function buildHighScoresContainer() {
   buttonEl.addEventListener("click", function (event) {
     event.preventDefault();
     var initials = inputEl.value;
-    console.log(initials);
     if (initials != "") {
       localStorage.setItem(initials, finalScore);
     }
