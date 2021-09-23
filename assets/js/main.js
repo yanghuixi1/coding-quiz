@@ -65,6 +65,10 @@ function chooseRandomQuestion() {
 }
 
 function buildQuizContainer() {
+  // h1 ul
+  var questionChoiceWrapper = document.createElement("div");
+  questionChoiceWrapper.setAttribute("id", "question-choice-wrapper");
+
   var questionEl = document.createElement("h1");
   questionEl.setAttribute("id", "question-text");
   var choicesEl = document.createElement("ul");
@@ -72,9 +76,10 @@ function buildQuizContainer() {
 
   resultEl = document.createElement("div");
   resultEl.setAttribute("id", "result-container");
-  containerEl.appendChild(questionEl);
-  containerEl.appendChild(choicesEl);
-  containerEl.appendChild(resultEl);
+  questionChoiceWrapper.appendChild(questionEl);
+  questionChoiceWrapper.appendChild(choicesEl);
+  questionChoiceWrapper.appendChild(resultEl);
+  containerEl.appendChild(questionChoiceWrapper);
   timeEl.textContent = secondsLeft;
 }
 
