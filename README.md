@@ -25,3 +25,7 @@ Images of the current website:
 
 - High Scores page:
   ![High Scores page](/assets/images/high_scores_page.png)
+
+---
+
+If you have questions or problems about this repository, please email me at yanghui.xi1@gmail.com.
